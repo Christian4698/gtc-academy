@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.p12
+*.pem
+
+# Expo / React Native
+.expo/
+.gradle-user-home/
+android/.gradle/
+android/app/build/
+android/build/
+
+# Next.js PWA output
+.next/
+out/
+tsconfig.tsbuildinfo
+
+# Capacitor Android local output and signing secrets
+capacitor/android/.gradle/
+capacitor/android/build/
+capacitor/android/app/build/
+capacitor/android/local.properties
+capacitor/android/keystore.properties
+capacitor/android/keystores/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
